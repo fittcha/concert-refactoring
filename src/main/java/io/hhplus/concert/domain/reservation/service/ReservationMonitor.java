@@ -1,10 +1,10 @@
 package io.hhplus.concert.domain.reservation.service;
 
-import io.hhplus.concert.domain.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 import io.hhplus.concert.domain.concert.service.ConcertService;
-import io.hhplus.concert.domain.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 import io.hhplus.concert.domain.payment.service.PaymentReader;
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import io.hhplus.concert.domain.reservation.repository.ReservationRepository;
 import io.hhplus.concert.domain.reservation.service.dto.OccupyTempReservationDto;
 import jakarta.annotation.PostConstruct;

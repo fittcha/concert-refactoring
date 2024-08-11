@@ -1,6 +1,6 @@
 package io.hhplus.concert.base.kafka.service;
 
-import io.hhplus.concert.domain.outbox.entity.Outbox;
+import io.hhplus.concert.infrastructure.outbox.entity.Outbox;
 import io.hhplus.concert.domain.outbox.service.OutboxService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

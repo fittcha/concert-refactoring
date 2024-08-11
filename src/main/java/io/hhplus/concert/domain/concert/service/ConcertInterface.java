@@ -4,7 +4,7 @@ import io.hhplus.concert.controller.concert.dto.response.GetConcertResponse;
 import io.hhplus.concert.controller.concert.dto.response.GetConcertsResponse;
 import io.hhplus.concert.controller.concert.dto.response.GetDatesResponse;
 import io.hhplus.concert.controller.concert.dto.response.GetSeatsResponse;
-import io.hhplus.concert.domain.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 
 import java.util.List;
 

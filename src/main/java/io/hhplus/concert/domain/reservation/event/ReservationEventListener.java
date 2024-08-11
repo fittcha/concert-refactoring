@@ -2,7 +2,7 @@ package io.hhplus.concert.domain.reservation.event;
 
 import io.hhplus.concert.base.kafka.KafkaConstants;
 import io.hhplus.concert.base.kafka.service.KafkaProducer;
-import io.hhplus.concert.domain.outbox.entity.Outbox;
+import io.hhplus.concert.infrastructure.outbox.entity.Outbox;
 import io.hhplus.concert.domain.outbox.service.OutboxService;
 import io.hhplus.concert.domain.reservation.service.ReservationMonitor;
 import io.hhplus.concert.domain.reservation.service.ReservationReader;

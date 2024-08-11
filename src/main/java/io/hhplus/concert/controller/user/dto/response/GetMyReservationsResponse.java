@@ -1,9 +1,9 @@
 package io.hhplus.concert.controller.user.dto.response;
 
-import io.hhplus.concert.domain.concert.entity.Concert;
-import io.hhplus.concert.domain.concert.entity.ConcertDate;
-import io.hhplus.concert.domain.concert.entity.Seat;
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.concert.entity.Concert;
+import io.hhplus.concert.infrastructure.concert.entity.ConcertDate;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import io.hhplus.concert.domain.reservation.service.dto.GetReservationAndPaymentResDto;
 import lombok.Builder;
 

@@ -1,8 +1,8 @@
 package io.hhplus.concert.domain.concert.repository;
 
-import io.hhplus.concert.domain.concert.entity.Concert;
-import io.hhplus.concert.domain.concert.entity.ConcertDate;
-import io.hhplus.concert.domain.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.concert.entity.Concert;
+import io.hhplus.concert.infrastructure.concert.entity.ConcertDate;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 

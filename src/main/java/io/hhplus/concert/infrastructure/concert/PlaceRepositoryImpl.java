@@ -1,9 +1,7 @@
 package io.hhplus.concert.infrastructure.concert;
 
-import io.hhplus.concert.domain.concert.entity.Place;
-import io.hhplus.concert.domain.concert.repository.PlaceJpaRepository;
+import io.hhplus.concert.infrastructure.concert.entity.Place;
 import io.hhplus.concert.domain.concert.repository.PlaceRepository;
-import io.hhplus.concert.domain.concert.repository.SeatJpaRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Repository;
 

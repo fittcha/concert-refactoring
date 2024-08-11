@@ -1,6 +1,6 @@
 package io.hhplus.concert.controller.concert.dto.response;
 
-import io.hhplus.concert.domain.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 
 import java.io.Serializable;
 import java.util.List;

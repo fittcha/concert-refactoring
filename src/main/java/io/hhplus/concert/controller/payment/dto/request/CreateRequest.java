@@ -1,7 +1,7 @@
 package io.hhplus.concert.controller.payment.dto.request;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import jakarta.validation.constraints.NotNull;
 
 import java.math.BigDecimal;

@@ -1,7 +1,6 @@
 package io.hhplus.concert.infrastructure.outbox;
 
-import io.hhplus.concert.domain.outbox.entity.Outbox;
-import io.hhplus.concert.domain.outbox.repository.OutboxJpaRepository;
+import io.hhplus.concert.infrastructure.outbox.entity.Outbox;
 import io.hhplus.concert.domain.outbox.repository.OutboxRepository;
 import org.springframework.stereotype.Repository;
 

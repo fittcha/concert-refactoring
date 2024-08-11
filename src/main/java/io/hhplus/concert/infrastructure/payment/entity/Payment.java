@@ -1,7 +1,7 @@
-package io.hhplus.concert.domain.payment.entity;
+package io.hhplus.concert.infrastructure.payment.entity;
 
 import io.hhplus.concert.base.entity.BaseDateTimeEntity;
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;

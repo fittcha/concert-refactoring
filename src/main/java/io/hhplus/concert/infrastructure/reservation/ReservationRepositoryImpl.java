@@ -1,7 +1,7 @@
 package io.hhplus.concert.infrastructure.reservation;
 
-import io.hhplus.concert.domain.reservation.entity.Reservation;
-import io.hhplus.concert.domain.reservation.repository.ReservationJpaRepository;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.reservation.entity.ReservationJpaRepository;
 import io.hhplus.concert.domain.reservation.repository.ReservationRepository;
 import io.hhplus.concert.domain.reservation.service.dto.GetReservationAndPaymentResDto;
 import jakarta.persistence.EntityNotFoundException;

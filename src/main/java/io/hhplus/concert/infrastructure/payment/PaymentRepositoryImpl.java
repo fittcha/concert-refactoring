@@ -1,7 +1,6 @@
 package io.hhplus.concert.infrastructure.payment;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
-import io.hhplus.concert.domain.payment.repository.PaymentJpaRepository;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 import io.hhplus.concert.domain.payment.repository.PaymentRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Repository;

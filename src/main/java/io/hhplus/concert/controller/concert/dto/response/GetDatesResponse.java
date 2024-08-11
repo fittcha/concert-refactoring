@@ -1,6 +1,6 @@
 package io.hhplus.concert.controller.concert.dto.response;
 
-import io.hhplus.concert.domain.concert.entity.ConcertDate;
+import io.hhplus.concert.infrastructure.concert.entity.ConcertDate;
 
 import java.time.ZonedDateTime;
 import java.util.List;

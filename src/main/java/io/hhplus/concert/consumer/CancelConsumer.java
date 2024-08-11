@@ -3,7 +3,7 @@ package io.hhplus.concert.consumer;
 import io.hhplus.concert.base.kafka.KafkaConstants;
 import io.hhplus.concert.base.util.JsonUtil;
 import io.hhplus.concert.domain.outbox.service.OutboxService;
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import io.hhplus.concert.domain.reservation.service.ReservationReader;
 import io.hhplus.concert.domain.send.dto.SendCommReqDto;
 import io.hhplus.concert.domain.send.service.SendService;

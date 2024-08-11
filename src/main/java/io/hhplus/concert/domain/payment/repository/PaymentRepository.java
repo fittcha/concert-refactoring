@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.payment.repository;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -1,6 +1,5 @@
-package io.hhplus.concert.domain.reservation.repository;
+package io.hhplus.concert.infrastructure.reservation.entity;
 
-import io.hhplus.concert.domain.reservation.entity.Reservation;
 import io.hhplus.concert.domain.reservation.service.dto.GetReservationAndPaymentResDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,7 +1,6 @@
 package io.hhplus.concert.infrastructure.user;
 
-import io.hhplus.concert.domain.user.entity.Users;
-import io.hhplus.concert.domain.user.repository.UserJpaRepository;
+import io.hhplus.concert.infrastructure.user.entity.Users;
 import io.hhplus.concert.domain.user.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.data.repository.query.Param;

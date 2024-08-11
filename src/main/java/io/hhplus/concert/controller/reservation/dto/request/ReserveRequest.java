@@ -1,6 +1,6 @@
 package io.hhplus.concert.controller.reservation.dto.request;
 
-import io.hhplus.concert.domain.reservation.entity.Reservation;
+import io.hhplus.concert.infrastructure.reservation.entity.Reservation;
 import jakarta.validation.constraints.NotNull;
 
 public record ReserveRequest(

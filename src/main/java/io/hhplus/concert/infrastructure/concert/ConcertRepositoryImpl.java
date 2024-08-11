@@ -1,12 +1,9 @@
 package io.hhplus.concert.infrastructure.concert;
 
-import io.hhplus.concert.domain.concert.entity.Concert;
-import io.hhplus.concert.domain.concert.entity.ConcertDate;
-import io.hhplus.concert.domain.concert.entity.Seat;
-import io.hhplus.concert.domain.concert.repository.ConcertDateJpaRepository;
-import io.hhplus.concert.domain.concert.repository.ConcertJpaRepository;
+import io.hhplus.concert.infrastructure.concert.entity.Concert;
+import io.hhplus.concert.infrastructure.concert.entity.ConcertDate;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 import io.hhplus.concert.domain.concert.repository.ConcertRepository;
-import io.hhplus.concert.domain.concert.repository.SeatJpaRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Repository;
 

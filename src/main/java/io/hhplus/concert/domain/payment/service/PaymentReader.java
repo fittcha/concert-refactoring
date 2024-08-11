@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.payment.service;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 import io.hhplus.concert.domain.payment.repository.PaymentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

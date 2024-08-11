@@ -1,6 +1,6 @@
 package io.hhplus.concert.controller.user.dto.response;
 
-import io.hhplus.concert.domain.user.entity.Users;
+import io.hhplus.concert.infrastructure.user.entity.Users;
 
 import java.math.BigDecimal;
 

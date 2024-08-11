@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.payment.service.dto;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 
 public record CancelPaymentResultResDto(
         boolean isSuccess,

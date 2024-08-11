@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.user.repository;
 
-import io.hhplus.concert.domain.user.entity.Users;
+import io.hhplus.concert.infrastructure.user.entity.Users;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 

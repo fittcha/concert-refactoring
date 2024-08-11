@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.send.service;
 
-import io.hhplus.concert.domain.outbox.entity.Outbox;
+import io.hhplus.concert.infrastructure.outbox.entity.Outbox;
 import io.hhplus.concert.domain.outbox.repository.OutboxRepository;
 import io.hhplus.concert.domain.send.dto.SendCommReqDto;
 import lombok.RequiredArgsConstructor;

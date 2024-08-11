@@ -1,6 +1,6 @@
-package io.hhplus.concert.domain.concert.repository;
+package io.hhplus.concert.infrastructure.concert;
 
-import io.hhplus.concert.domain.concert.entity.Seat;
+import io.hhplus.concert.infrastructure.concert.entity.Seat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 

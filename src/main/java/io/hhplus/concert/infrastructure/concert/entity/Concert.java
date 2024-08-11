@@ -1,4 +1,4 @@
-package io.hhplus.concert.domain.concert.entity;
+package io.hhplus.concert.infrastructure.concert.entity;
 
 import io.hhplus.concert.base.entity.BaseDateTimeEntity;
 import jakarta.persistence.*;

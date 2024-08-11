@@ -1,4 +1,4 @@
-package io.hhplus.concert.domain.outbox.entity;
+package io.hhplus.concert.infrastructure.outbox.entity;
 
 import io.hhplus.concert.base.entity.BaseDateTimeEntity;
 import jakarta.persistence.*;

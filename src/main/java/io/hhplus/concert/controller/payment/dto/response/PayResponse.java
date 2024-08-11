@@ -1,6 +1,6 @@
 package io.hhplus.concert.controller.payment.dto.response;
 
-import io.hhplus.concert.domain.payment.entity.Payment;
+import io.hhplus.concert.infrastructure.payment.entity.Payment;
 import lombok.Builder;
 
 import java.math.BigDecimal;
