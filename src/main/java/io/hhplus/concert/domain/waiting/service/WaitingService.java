@@ -2,7 +2,7 @@ package io.hhplus.concert.domain.waiting.service;
 
 import io.hhplus.concert.base.jwt.JwtService;
 import io.hhplus.concert.base.redis.service.RedisZSetService;
-import io.hhplus.concert.controller.waiting.dto.response.CheckWaitingResponse;
+import io.hhplus.concert.presentation.waiting.dto.response.CheckWaitingResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

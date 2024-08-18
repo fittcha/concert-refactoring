@@ -1,9 +1,9 @@
 package io.hhplus.concert.domain.concert.service;
 
-import io.hhplus.concert.controller.concert.dto.response.GetConcertResponse;
-import io.hhplus.concert.controller.concert.dto.response.GetConcertsResponse;
-import io.hhplus.concert.controller.concert.dto.response.GetDatesResponse;
-import io.hhplus.concert.controller.concert.dto.response.GetSeatsResponse;
+import io.hhplus.concert.presentation.concert.dto.response.GetConcertResponse;
+import io.hhplus.concert.presentation.concert.dto.response.GetConcertsResponse;
+import io.hhplus.concert.presentation.concert.dto.response.GetDatesResponse;
+import io.hhplus.concert.presentation.concert.dto.response.GetSeatsResponse;
 import io.hhplus.concert.domain.concert.repository.ConcertRepository;
 import io.hhplus.concert.infrastructure.concert.entity.Seat;
 import lombok.RequiredArgsConstructor;

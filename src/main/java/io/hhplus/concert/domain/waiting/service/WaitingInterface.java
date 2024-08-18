@@ -1,6 +1,6 @@
 package io.hhplus.concert.domain.waiting.service;
 
-import io.hhplus.concert.controller.waiting.dto.response.CheckWaitingResponse;
+import io.hhplus.concert.presentation.waiting.dto.response.CheckWaitingResponse;
 
 public interface WaitingInterface {
 

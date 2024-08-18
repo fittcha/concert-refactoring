@@ -1,10 +1,10 @@
 package io.hhplus.concert.domain.reservation.service;
 
 import io.hhplus.concert.base.redis.RedissonLock;
-import io.hhplus.concert.controller.reservation.dto.request.CancelRequest;
-import io.hhplus.concert.controller.reservation.dto.request.ReserveRequest;
-import io.hhplus.concert.controller.reservation.dto.response.ReserveResponse;
-import io.hhplus.concert.controller.user.dto.response.GetMyReservationsResponse;
+import io.hhplus.concert.presentation.reservation.dto.request.CancelRequest;
+import io.hhplus.concert.presentation.reservation.dto.request.ReserveRequest;
+import io.hhplus.concert.presentation.reservation.dto.response.ReserveResponse;
+import io.hhplus.concert.presentation.user.dto.response.GetMyReservationsResponse;
 import io.hhplus.concert.domain.concert.service.ConcertReader;
 import io.hhplus.concert.domain.concert.service.ConcertService;
 import io.hhplus.concert.domain.payment.service.PaymentService;

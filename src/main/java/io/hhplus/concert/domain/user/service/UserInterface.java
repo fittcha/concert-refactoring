@@ -1,8 +1,8 @@
 package io.hhplus.concert.domain.user.service;
 
-import io.hhplus.concert.controller.user.dto.request.ChargeRequest;
-import io.hhplus.concert.controller.user.dto.request.UseRequest;
-import io.hhplus.concert.controller.user.dto.response.GetBalanceResponse;
+import io.hhplus.concert.presentation.user.dto.request.ChargeRequest;
+import io.hhplus.concert.presentation.user.dto.request.UseRequest;
+import io.hhplus.concert.presentation.user.dto.response.GetBalanceResponse;
 
 public interface UserInterface {
 
