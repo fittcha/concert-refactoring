@@ -57,6 +57,11 @@
 
 수정된 버전
 클린 아키텍처
+/presentation
+/application
+/domain
+/infrastructure
+/base
 
 
 
