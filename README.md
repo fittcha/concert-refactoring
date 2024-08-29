@@ -54,6 +54,13 @@
 ## 🏗️ 아키텍쳐
 기본적으로 의존성 역전 원칙(DI), 캡슐화를 고려하여 클린-레이어드 아키텍처를 사용합니다.
 기존 
+/controller
+/domain
+  /entity
+  /service
+  /repository
+/infrastructure
+  /repositoryImpl
 
 수정된 버전
 클린 아키텍처
