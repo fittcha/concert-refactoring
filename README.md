@@ -65,9 +65,18 @@
 수정된 버전
 클린 아키텍처
 /presentation
+  /controller
 /application
+  /facade
 /domain
+  /dto
+  /service
+  /serviceImpl
+  /repository
+  /event
 /infrastructure
+  /entity
+  /repositoryImpl
 /base
 
 
